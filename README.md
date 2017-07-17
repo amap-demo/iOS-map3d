@@ -26,7 +26,7 @@ iOS 3D地图SDK官方Demo
 |显示室内地图|IndoorMapViewController|
 |切换地图图层|MapTypeViewController|
 |使用离线地图|OfflineViewController|
-
+|自定义地图|CustomMapStyleViewController|
 
 `与地图交互`
 
@@ -56,7 +56,6 @@ iOS 3D地图SDK官方Demo
 |绘制面(矩形)|PolygonOverlayViewController|
 |轨迹纠偏|MATraceCorrectViewController|
 |点平滑移动|MovingAnnotationViewController|
-|自定义地图|CustomMapStyleViewController|
 |绘制海量点图层|MultiPointOverlayViewController|
 |多彩线|ColoredLinesOverlayViewController|
 |大地曲线|GeodesicViewController|
