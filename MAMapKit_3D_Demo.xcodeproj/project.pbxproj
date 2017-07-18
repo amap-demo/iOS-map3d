@@ -154,6 +154,7 @@
 		6A6C04D31F1DAE0000F0CB67 /* OfflineDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C035C1F1C9F8900F0CB67 /* OfflineDetailViewController.m */; };
 		6A6C04D41F1DAE0D00F0CB67 /* ScreenshotDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C03B81F1C9F8900F0CB67 /* ScreenshotDetailViewController.m */; };
 		6A6C04D51F1DAE1900F0CB67 /* MAHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C03611F1C9F8900F0CB67 /* MAHeaderView.m */; };
+		6A6C04DD1F1DB7E000F0CB67 /* MAMapKit_3D_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C04DC1F1DB7E000F0CB67 /* MAMapKit_3D_DemoUITests.m */; };
 		6A6C4FCC1ED2913D00A14DA0 /* 10w.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A6C4FCB1ED2913D00A14DA0 /* 10w.txt */; };
 		6A6C4FCE1ED292A300A14DA0 /* marker_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6C4FCD1ED292A300A14DA0 /* marker_blue@2x.png */; };
 		6A6C4FD01ED2944000A14DA0 /* MultiPointOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C4FCF1ED2944000A14DA0 /* MultiPointOverlayViewController.swift */; };
@@ -345,6 +346,16 @@
 		D9D1F06F1E1B87B900489082 /* AddControlsViewController.xib in CopyFiles */ = {isa = PBXBuildFile; fileRef = D9D1F06D1E1B863000489082 /* AddControlsViewController.xib */; };
 		DE4CC0AEC57166ACF4CB01C0 /* libPods-MAMapKit_3D_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B1471E9948A6E4F5970E4D /* libPods-MAMapKit_3D_Demo.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A6C04DF1F1DB7E000F0CB67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19D2EEC21D59C2920039B22A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19D2EEC91D59C2920039B22A;
+			remoteInfo = MAMapKit_3D_Demo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		D9D1F0681E1B4B1700489082 /* CopyFiles */ = {
@@ -639,6 +650,9 @@
 		6A6C04491F1C9F8900F0CB67 /* ShareSearchBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareSearchBaseViewController.m; sourceTree = "<group>"; };
 		6A6C04C81F1CA08500F0CB67 /* IndoorMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndoorMapViewController.h; sourceTree = "<group>"; };
 		6A6C04C91F1CA08500F0CB67 /* IndoorMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndoorMapViewController.m; sourceTree = "<group>"; };
+		6A6C04DA1F1DB7E000F0CB67 /* MAMapKit_3D_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAMapKit_3D_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A6C04DC1F1DB7E000F0CB67 /* MAMapKit_3D_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAMapKit_3D_DemoUITests.m; sourceTree = "<group>"; };
+		6A6C04DE1F1DB7E000F0CB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A6C4FCB1ED2913D00A14DA0 /* 10w.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 10w.txt; sourceTree = "<group>"; };
 		6A6C4FCD1ED292A300A14DA0 /* marker_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker_blue@2x.png"; sourceTree = "<group>"; };
 		6A6C4FCF1ED2944000A14DA0 /* MultiPointOverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiPointOverlayViewController.swift; sourceTree = "<group>"; };
@@ -887,6 +901,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6A6C04D71F1DB7E000F0CB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B6FD94AB1D9BC41D00E7A2DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -916,6 +937,7 @@
 				B6FD94DE1D9BC52800E7A2DA /* MAMapKit-3D-Demo-swift */,
 				B6108FCB1D641B1200C359A7 /* MAMapKit_3D_Demo */,
 				B61084D71D5B085100C359A7 /* Resources */,
+				6A6C04DB1F1DB7E000F0CB67 /* MAMapKit_3D_DemoUITests */,
 				B61084A11D59D72800C359A7 /* Frameworks */,
 				19D2EECB1D59C2920039B22A /* Products */,
 				10D9FBFFCCF9F3326F8FE76F /* Pods */,
@@ -927,6 +949,7 @@
 			children = (
 				19D2EECA1D59C2920039B22A /* MAMapKit_3D_Demo.app */,
 				B6FD94AE1D9BC41D00E7A2DA /* MAMapKit-3D-Demo-swift.app */,
+				6A6C04DA1F1DB7E000F0CB67 /* MAMapKit_3D_DemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1404,6 +1427,15 @@
 				6A6C04491F1C9F8900F0CB67 /* ShareSearchBaseViewController.m */,
 			);
 			path = share;
+			sourceTree = "<group>";
+		};
+		6A6C04DB1F1DB7E000F0CB67 /* MAMapKit_3D_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A6C04DC1F1DB7E000F0CB67 /* MAMapKit_3D_DemoUITests.m */,
+				6A6C04DE1F1DB7E000F0CB67 /* Info.plist */,
+			);
+			path = MAMapKit_3D_DemoUITests;
 			sourceTree = "<group>";
 		};
 		B60784511D9BD1A40057C965 /* Resources */ = {
@@ -1957,6 +1989,24 @@
 			productReference = 19D2EECA1D59C2920039B22A /* MAMapKit_3D_Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6A6C04D91F1DB7E000F0CB67 /* MAMapKit_3D_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A6C04E11F1DB7E000F0CB67 /* Build configuration list for PBXNativeTarget "MAMapKit_3D_DemoUITests" */;
+			buildPhases = (
+				6A6C04D61F1DB7E000F0CB67 /* Sources */,
+				6A6C04D71F1DB7E000F0CB67 /* Frameworks */,
+				6A6C04D81F1DB7E000F0CB67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A6C04E01F1DB7E000F0CB67 /* PBXTargetDependency */,
+			);
+			name = MAMapKit_3D_DemoUITests;
+			productName = MAMapKit_3D_DemoUITests;
+			productReference = 6A6C04DA1F1DB7E000F0CB67 /* MAMapKit_3D_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		B6FD94AD1D9BC41D00E7A2DA /* MAMapKit-3D-Demo-swift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6FD94D31D9BC41D00E7A2DA /* Build configuration list for PBXNativeTarget "MAMapKit-3D-Demo-swift" */;
@@ -1993,6 +2043,12 @@
 						DevelopmentTeam = YMJ372W38W;
 						ProvisioningStyle = Manual;
 					};
+					6A6C04D91F1DB7E000F0CB67 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = YMJ372W38W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 19D2EEC91D59C2920039B22A;
+					};
 					B6FD94AD1D9BC41D00E7A2DA = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = YMJ372W38W;
@@ -2015,6 +2071,7 @@
 			targets = (
 				19D2EEC91D59C2920039B22A /* MAMapKit_3D_Demo */,
 				B6FD94AD1D9BC41D00E7A2DA /* MAMapKit-3D-Demo-swift */,
+				6A6C04D91F1DB7E000F0CB67 /* MAMapKit_3D_DemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -2086,6 +2143,13 @@
 				B61086651D5B0C0E00C359A7 /* GWF.png in Resources */,
 				B61087BA1D5B0C0E00C359A7 /* naviBackgroundHighlighted.png in Resources */,
 				B610865D1D5B0C0E00C359A7 /* animatedTrain_3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A6C04D81F1DB7E000F0CB67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2389,6 +2453,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6A6C04D61F1DB7E000F0CB67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6C04DD1F1DB7E000F0CB67 /* MAMapKit_3D_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B6FD94AA1D9BC41D00E7A2DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2478,6 +2550,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A6C04E01F1DB7E000F0CB67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19D2EEC91D59C2920039B22A /* MAMapKit_3D_Demo */;
+			targetProxy = 6A6C04DF1F1DB7E000F0CB67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B6108FCF1D641B1200C359A7 /* LaunchScreen.storyboard */ = {
@@ -2649,6 +2729,38 @@
 			};
 			name = Release;
 		};
+		6A6C04E21F1DB7E000F0CB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = MAMapKit_3D_DemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.MAMapKit-3D-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "37bcbefd-c99d-44d5-a048-5ff502582130";
+				TEST_TARGET_NAME = MAMapKit_3D_Demo;
+			};
+			name = Debug;
+		};
+		6A6C04E31F1DB7E000F0CB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = MAMapKit_3D_DemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.MAMapKit-3D-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "37bcbefd-c99d-44d5-a048-5ff502582130";
+				TEST_TARGET_NAME = MAMapKit_3D_Demo;
+			};
+			name = Release;
+		};
 		B6FD94D41D9BC41D00E7A2DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9F7425DADE045351E7B68B76 /* Pods-MAMapKit-3D-Demo-swift.debug.xcconfig */;
@@ -2717,6 +2829,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		6A6C04E11F1DB7E000F0CB67 /* Build configuration list for PBXNativeTarget "MAMapKit_3D_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A6C04E21F1DB7E000F0CB67 /* Debug */,
+				6A6C04E31F1DB7E000F0CB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		B6FD94D31D9BC41D00E7A2DA /* Build configuration list for PBXNativeTarget "MAMapKit-3D-Demo-swift" */ = {
 			isa = XCConfigurationList;
