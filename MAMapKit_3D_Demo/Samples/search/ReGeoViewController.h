@@ -6,6 +6,6 @@
 //  Copyright (c) 2013年 songjian. All rights reserved.
 //
 
-@interface InvertGeoViewController : UIViewController
+@interface ReGeoViewController : UIViewController
 
 @end

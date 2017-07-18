@@ -8,7 +8,7 @@
 
 import UIKit
 
-let kDefaultDistrictName = "北京市市辖区"
+let kDefaultDistrictName = "北京城区"
 
 class DistrictViewController: UIViewController, MAMapViewDelegate, AMapSearchDelegate, UISearchBarDelegate {
 

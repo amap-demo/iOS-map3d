@@ -6,7 +6,7 @@
 //  Copyright (c) 2013年 songjian. All rights reserved.
 //
 
-#import "InvertGeoDetailViewController.h"
+#import "ReGeoDetailViewController.h"
 #import "PoiDetailViewController.h"
 #import "AddressComponentDetailViewController.h"
 #import "RoadDetailViewController.h"
@@ -14,13 +14,13 @@
 #import "AOIDetailViewController.h"
 
 
-@interface InvertGeoDetailViewController ()<UITableViewDataSource, UITableViewDelegate>
+@interface ReGeoDetailViewController ()<UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, strong) UITableView *tableView;
 
 @end
 
-@implementation InvertGeoDetailViewController
+@implementation ReGeoDetailViewController
 @synthesize reGeocode = _reGeocode;
 @synthesize tableView = _tableView;
 

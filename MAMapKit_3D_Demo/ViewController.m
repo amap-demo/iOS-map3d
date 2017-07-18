@@ -120,7 +120,6 @@
     _titles = @[@{@"创建地图":@[
                           @{@"显示定位蓝点(默认样式)":@"UserLocationViewController"},
                           @{@"显示定位蓝点(自定义样式)":@"CustomUserLocationViewController"},
-                          @{@"显示定位蓝点(定位箭头旋转效果)":@"CustomUserLoactionViewController2"},
                           @{@"显示室内地图":@"IndoorMapViewController"},
                           @{@"切换地图图层":@"MapTypeViewController"},
                           @{@"使用离线地图":@"OfflineViewController"},

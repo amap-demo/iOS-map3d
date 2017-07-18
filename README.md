@@ -22,7 +22,6 @@ iOS 3D地图SDK官方Demo
 | -----|:-----:|
 |显示定位蓝点(默认样式)|UserLocationViewController|
 |显示定位蓝点(自定义样式)|CustomUserLocationViewController|
-|显示定位蓝点(定位箭头旋转效果)|CustomUserLoactionViewController2|
 |显示室内地图|IndoorMapViewController|
 |切换地图图层|MapTypeViewController|
 |使用离线地图|OfflineViewController|
@@ -79,7 +78,7 @@ iOS 3D地图SDK官方Demo
 |获取POI数据(检索指定范围内的POI)|PoiSearchWithInPolygonController|
 |获取POI数据(根据输入自动提示)|TipViewController|
 |获取地址描述数据(地址转坐标)|GeoViewController|
-|获取地址描述数据(坐标转地址)|InvertGeoViewController|
+|获取地址描述数据(坐标转地址)|ReGeoViewController|
 |获取行政区划数据|DistrictViewController|
 |获取公交数据(线路查询)|BusLineViewController|
 |获取公交数据(站点查询)|BusStopViewController|

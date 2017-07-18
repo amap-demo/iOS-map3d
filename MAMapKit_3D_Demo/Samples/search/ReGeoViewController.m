@@ -6,8 +6,8 @@
 //  Copyright (c) 2013年 songjian. All rights reserved.
 //
 
-#import "InvertGeoViewController.h"
-#import "InvertGeoDetailViewController.h"
+#import "ReGeoViewController.h"
+#import "ReGeoDetailViewController.h"
 #import "ReGeocodeAnnotation.h"
 #import "CommonUtility.h"
 #import "MANaviAnnotationView.h"
@@ -16,7 +16,7 @@
 #define RightCallOutTag 1
 #define LeftCallOutTag 2
 
-@interface InvertGeoViewController ()<MAMapViewDelegate, AMapSearchDelegate>
+@interface ReGeoViewController ()<MAMapViewDelegate, AMapSearchDelegate>
 
 @property (nonatomic, strong) MAMapView *mapView;
 @property (nonatomic, strong) AMapSearchAPI *search;
@@ -26,13 +26,13 @@
 
 @end
 
-@implementation InvertGeoViewController
+@implementation ReGeoViewController
 
 - (void)gotoDetailForReGeocode:(AMapReGeocode *)reGeocode
 {
     if (reGeocode != nil)
     {
-        InvertGeoDetailViewController *invertGeoDetailViewController = [[InvertGeoDetailViewController alloc] init];
+        ReGeoDetailViewController *invertGeoDetailViewController = [[ReGeoDetailViewController alloc] init];
         
         invertGeoDetailViewController.reGeocode = reGeocode;
         

@@ -62,7 +62,7 @@ class ViewController2: UIViewController, ViewControllerDelegate {
                 "PoiSearchWithInPolygonController":UIViewController.self,
                 "TipViewController":TipViewController.self,
                 "GeoViewController":GeocodeViewController.self,
-                "InvertGeoViewController":ReGeocodeViewController.self,
+                "ReGeoViewController":ReGeocodeViewController.self,
                 "DistrictViewController":DistrictViewController.self,
                 "BusLineViewController":BuslineViewController.self,
                 "BusStopViewController":BusstopViewController.self,

@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <AMapSearchKit/AMapSearchAPI.h>
 
-@interface InvertGeoDetailViewController : UIViewController
+@interface ReGeoDetailViewController : UIViewController
 
 @property (nonatomic, strong) AMapReGeocode *reGeocode;
 

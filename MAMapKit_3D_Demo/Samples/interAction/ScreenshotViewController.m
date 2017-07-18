@@ -49,6 +49,7 @@
     
     self.mapView = [[MAMapView alloc] initWithFrame:self.view.bounds];
     self.mapView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    self.mapView.delegate = self;
     [self.view addSubview:self.mapView];
     
     [self initToolbar];

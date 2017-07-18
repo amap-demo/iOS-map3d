@@ -50,7 +50,7 @@
 		6A6C04681F1C9F8900F0CB67 /* BusLineDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C037B1F1C9F8900F0CB67 /* BusLineDetailViewController.m */; };
 		6A6C04691F1C9F8900F0CB67 /* BusStopDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C037D1F1C9F8900F0CB67 /* BusStopDetailViewController.m */; };
 		6A6C046A1F1C9F8900F0CB67 /* GeoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C037F1F1C9F8900F0CB67 /* GeoDetailViewController.m */; };
-		6A6C046B1F1C9F8900F0CB67 /* InvertGeoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C03811F1C9F8900F0CB67 /* InvertGeoDetailViewController.m */; };
+		6A6C046B1F1C9F8900F0CB67 /* ReGeoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C03811F1C9F8900F0CB67 /* ReGeoDetailViewController.m */; };
 		6A6C046C1F1C9F8900F0CB67 /* PathDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C03831F1C9F8900F0CB67 /* PathDetailViewController.m */; };
 		6A6C046D1F1C9F8900F0CB67 /* PoiDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C03851F1C9F8900F0CB67 /* PoiDetailViewController.m */; };
 		6A6C046E1F1C9F8900F0CB67 /* RailwayDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C03871F1C9F8900F0CB67 /* RailwayDetailViewController.m */; };
@@ -130,7 +130,7 @@
 		6A6C04B91F1C9F8900F0CB67 /* BusStopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C042A1F1C9F8900F0CB67 /* BusStopViewController.m */; };
 		6A6C04BA1F1C9F8900F0CB67 /* DistrictViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C042C1F1C9F8900F0CB67 /* DistrictViewController.m */; };
 		6A6C04BB1F1C9F8900F0CB67 /* GeoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C042E1F1C9F8900F0CB67 /* GeoViewController.m */; };
-		6A6C04BC1F1C9F8900F0CB67 /* InvertGeoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C04301F1C9F8900F0CB67 /* InvertGeoViewController.m */; };
+		6A6C04BC1F1C9F8900F0CB67 /* ReGeoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C04301F1C9F8900F0CB67 /* ReGeoViewController.m */; };
 		6A6C04BD1F1C9F8900F0CB67 /* GeocodeAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C04331F1C9F8900F0CB67 /* GeocodeAnnotation.m */; };
 		6A6C04BE1F1C9F8900F0CB67 /* ReGeocodeAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C04351F1C9F8900F0CB67 /* ReGeocodeAnnotation.m */; };
 		6A6C04BF1F1C9F8900F0CB67 /* RoadTrafficStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C04371F1C9F8900F0CB67 /* RoadTrafficStatusViewController.m */; };
@@ -143,6 +143,17 @@
 		6A6C04C61F1C9F8900F0CB67 /* RouteShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C04471F1C9F8900F0CB67 /* RouteShareViewController.m */; };
 		6A6C04C71F1C9F8900F0CB67 /* ShareSearchBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C04491F1C9F8900F0CB67 /* ShareSearchBaseViewController.m */; };
 		6A6C04CA1F1CA08500F0CB67 /* IndoorMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C04C91F1CA08500F0CB67 /* IndoorMapViewController.m */; };
+		6A6C04CB1F1DADBE00F0CB67 /* MAWeatherForecastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C043A1F1C9F8900F0CB67 /* MAWeatherForecastView.m */; };
+		6A6C04CC1F1DADC100F0CB67 /* MAWeatherLiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C043C1F1C9F8900F0CB67 /* MAWeatherLiveView.m */; };
+		6A6C04CD1F1DADC600F0CB67 /* ReGeocodeAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C04351F1C9F8900F0CB67 /* ReGeocodeAnnotation.m */; };
+		6A6C04CE1F1DADC800F0CB67 /* GeocodeAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C04331F1C9F8900F0CB67 /* GeocodeAnnotation.m */; };
+		6A6C04CF1F1DADE300F0CB67 /* LineDashPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C04101F1C9F8900F0CB67 /* LineDashPolyline.m */; };
+		6A6C04D01F1DADE600F0CB67 /* MANaviAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C04121F1C9F8900F0CB67 /* MANaviAnnotation.m */; };
+		6A6C04D11F1DADE800F0CB67 /* MANaviPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C04141F1C9F8900F0CB67 /* MANaviPolyline.m */; };
+		6A6C04D21F1DADEA00F0CB67 /* MANaviRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C04161F1C9F8900F0CB67 /* MANaviRoute.m */; };
+		6A6C04D31F1DAE0000F0CB67 /* OfflineDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C035C1F1C9F8900F0CB67 /* OfflineDetailViewController.m */; };
+		6A6C04D41F1DAE0D00F0CB67 /* ScreenshotDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C03B81F1C9F8900F0CB67 /* ScreenshotDetailViewController.m */; };
+		6A6C04D51F1DAE1900F0CB67 /* MAHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C03611F1C9F8900F0CB67 /* MAHeaderView.m */; };
 		6A6C4FCC1ED2913D00A14DA0 /* 10w.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A6C4FCB1ED2913D00A14DA0 /* 10w.txt */; };
 		6A6C4FCE1ED292A300A14DA0 /* marker_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6C4FCD1ED292A300A14DA0 /* marker_blue@2x.png */; };
 		6A6C4FD01ED2944000A14DA0 /* MultiPointOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C4FCF1ED2944000A14DA0 /* MultiPointOverlayViewController.swift */; };
@@ -441,8 +452,8 @@
 		6A6C037D1F1C9F8900F0CB67 /* BusStopDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStopDetailViewController.m; sourceTree = "<group>"; };
 		6A6C037E1F1C9F8900F0CB67 /* GeoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoDetailViewController.h; sourceTree = "<group>"; };
 		6A6C037F1F1C9F8900F0CB67 /* GeoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoDetailViewController.m; sourceTree = "<group>"; };
-		6A6C03801F1C9F8900F0CB67 /* InvertGeoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvertGeoDetailViewController.h; sourceTree = "<group>"; };
-		6A6C03811F1C9F8900F0CB67 /* InvertGeoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvertGeoDetailViewController.m; sourceTree = "<group>"; };
+		6A6C03801F1C9F8900F0CB67 /* ReGeoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReGeoDetailViewController.h; sourceTree = "<group>"; };
+		6A6C03811F1C9F8900F0CB67 /* ReGeoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReGeoDetailViewController.m; sourceTree = "<group>"; };
 		6A6C03821F1C9F8900F0CB67 /* PathDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathDetailViewController.h; sourceTree = "<group>"; };
 		6A6C03831F1C9F8900F0CB67 /* PathDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathDetailViewController.m; sourceTree = "<group>"; };
 		6A6C03841F1C9F8900F0CB67 /* PoiDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoiDetailViewController.h; sourceTree = "<group>"; };
@@ -602,8 +613,8 @@
 		6A6C042C1F1C9F8900F0CB67 /* DistrictViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistrictViewController.m; sourceTree = "<group>"; };
 		6A6C042D1F1C9F8900F0CB67 /* GeoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoViewController.h; sourceTree = "<group>"; };
 		6A6C042E1F1C9F8900F0CB67 /* GeoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoViewController.m; sourceTree = "<group>"; };
-		6A6C042F1F1C9F8900F0CB67 /* InvertGeoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvertGeoViewController.h; sourceTree = "<group>"; };
-		6A6C04301F1C9F8900F0CB67 /* InvertGeoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvertGeoViewController.m; sourceTree = "<group>"; };
+		6A6C042F1F1C9F8900F0CB67 /* ReGeoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReGeoViewController.h; sourceTree = "<group>"; };
+		6A6C04301F1C9F8900F0CB67 /* ReGeoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReGeoViewController.m; sourceTree = "<group>"; };
 		6A6C04321F1C9F8900F0CB67 /* GeocodeAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeocodeAnnotation.h; sourceTree = "<group>"; };
 		6A6C04331F1C9F8900F0CB67 /* GeocodeAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeocodeAnnotation.m; sourceTree = "<group>"; };
 		6A6C04341F1C9F8900F0CB67 /* ReGeocodeAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReGeocodeAnnotation.h; sourceTree = "<group>"; };
@@ -1094,8 +1105,8 @@
 				6A6C037D1F1C9F8900F0CB67 /* BusStopDetailViewController.m */,
 				6A6C037E1F1C9F8900F0CB67 /* GeoDetailViewController.h */,
 				6A6C037F1F1C9F8900F0CB67 /* GeoDetailViewController.m */,
-				6A6C03801F1C9F8900F0CB67 /* InvertGeoDetailViewController.h */,
-				6A6C03811F1C9F8900F0CB67 /* InvertGeoDetailViewController.m */,
+				6A6C03801F1C9F8900F0CB67 /* ReGeoDetailViewController.h */,
+				6A6C03811F1C9F8900F0CB67 /* ReGeoDetailViewController.m */,
 				6A6C03821F1C9F8900F0CB67 /* PathDetailViewController.h */,
 				6A6C03831F1C9F8900F0CB67 /* PathDetailViewController.m */,
 				6A6C03841F1C9F8900F0CB67 /* PoiDetailViewController.h */,
@@ -1344,8 +1355,8 @@
 				6A6C042C1F1C9F8900F0CB67 /* DistrictViewController.m */,
 				6A6C042D1F1C9F8900F0CB67 /* GeoViewController.h */,
 				6A6C042E1F1C9F8900F0CB67 /* GeoViewController.m */,
-				6A6C042F1F1C9F8900F0CB67 /* InvertGeoViewController.h */,
-				6A6C04301F1C9F8900F0CB67 /* InvertGeoViewController.m */,
+				6A6C042F1F1C9F8900F0CB67 /* ReGeoViewController.h */,
+				6A6C04301F1C9F8900F0CB67 /* ReGeoViewController.m */,
 				6A6C04311F1C9F8900F0CB67 /* model */,
 				6A6C04361F1C9F8900F0CB67 /* RoadTrafficStatusViewController.h */,
 				6A6C04371F1C9F8900F0CB67 /* RoadTrafficStatusViewController.m */,
@@ -2242,7 +2253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A6C04BC1F1C9F8900F0CB67 /* InvertGeoViewController.m in Sources */,
+				6A6C04BC1F1C9F8900F0CB67 /* ReGeoViewController.m in Sources */,
 				6A6C04831F1C9F8900F0CB67 /* MapEventCallbackViewController.m in Sources */,
 				6A6C04651F1C9F8900F0CB67 /* AddressComponentDetailViewController.m in Sources */,
 				6A6C04BB1F1C9F8900F0CB67 /* GeoViewController.m in Sources */,
@@ -2301,7 +2312,7 @@
 				B61090D41D641B1200C359A7 /* AppDelegate.m in Sources */,
 				6A6C04861F1C9F8900F0CB67 /* ScreenshotDetailViewController.m in Sources */,
 				6A6C04AE1F1C9F8900F0CB67 /* MANaviAnnotation.m in Sources */,
-				6A6C046B1F1C9F8900F0CB67 /* InvertGeoDetailViewController.m in Sources */,
+				6A6C046B1F1C9F8900F0CB67 /* ReGeoDetailViewController.m in Sources */,
 				6A6C049C1F1C9F8900F0CB67 /* MultiPointOverlayViewController.m in Sources */,
 				B61091461D641B1200C359A7 /* NSLayoutConstraint+PureLayout.m in Sources */,
 				6A6C04B71F1C9F8900F0CB67 /* MANaviAnnotationView.m in Sources */,
@@ -2389,30 +2400,37 @@
 				19DD43411DAA4D2E00991F7D /* AnimatedAnnotationView.m in Sources */,
 				B6078BFF1DAC80C90057C965 /* OfflineViewController.swift in Sources */,
 				B6078B9F1DA9DFE30057C965 /* ReGeocodeViewController.swift in Sources */,
+				6A6C04D51F1DAE1900F0CB67 /* MAHeaderView.m in Sources */,
 				B6078BE71DAB2C920057C965 /* DistanceCalculateViewController2.swift in Sources */,
 				B6078C121DACBC020057C965 /* BuslineViewController.swift in Sources */,
 				B6078BC51DAA2B420057C965 /* GeodesicViewController.swift in Sources */,
 				B6078BC71DAA2F1A0057C965 /* HeatMapViewController.swift in Sources */,
 				19F0A4C11DB75B3C0019C016 /* MapZoomByScreenAnchor.swift in Sources */,
+				6A6C04D01F1DADE600F0CB67 /* MANaviAnnotation.m in Sources */,
 				B6078BF71DAB85110057C965 /* ScreenShotViewController.swift in Sources */,
 				B6078BE11DAA58000057C965 /* NSArray+PureLayout.m in Sources */,
 				B6078BA31DA9DFE30057C965 /* POIKeywordSearchViewController.swift in Sources */,
 				19DD43421DAA4D2E00991F7D /* CustomAnnotationView.m in Sources */,
 				B6078BDF1DAA58000057C965 /* CommonUtility.m in Sources */,
+				6A6C04D31F1DAE0000F0CB67 /* OfflineDetailViewController.m in Sources */,
 				B6078C091DACBA350057C965 /* DistrictViewController.swift in Sources */,
 				B6078BC91DAA43830057C965 /* RunningLineViewController.swift in Sources */,
+				6A6C04CE1F1DADC800F0CB67 /* GeocodeAnnotation.m in Sources */,
 				B6078BA01DA9DFE30057C965 /* MapBoundaryViewController.swift in Sources */,
 				B6078BA71DA9E1570057C965 /* TexturedLineViewController.swift in Sources */,
 				B6078BBA1DAA16FB0057C965 /* CubeOverlayRenderer.mm in Sources */,
 				19DD43441DAA4D2E00991F7D /* CustomCalloutView.m in Sources */,
 				B6078BE21DAA58000057C965 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				6A6C04CD1F1DADC600F0CB67 /* ReGeocodeAnnotation.m in Sources */,
 				B6078BBF1DAA16FB0057C965 /* LocalTileOverlay.m in Sources */,
 				B6078BCB1DAA4BF30057C965 /* TileOverlayViewController.swift in Sources */,
 				B6078BE31DAA58000057C965 /* UIView+Toast.m in Sources */,
 				B6078BC11DAA221F0057C965 /* ColoredLinesViewController.swift in Sources */,
+				6A6C04D11F1DADE800F0CB67 /* MANaviPolyline.m in Sources */,
 				B6078BB91DAA16FB0057C965 /* CubeOverlay.m in Sources */,
 				B6078BED1DAB44CC0057C965 /* CustomUserLocationViewController.swift in Sources */,
 				B66EF0B11DFFE8BE00236C3C /* CustomMapStyleViewController.swift in Sources */,
+				6A6C04CC1F1DADC100F0CB67 /* MAWeatherLiveView.m in Sources */,
 				B60B69D01DED71CA0097B65F /* MovingAnnotationViewController.swift in Sources */,
 				19DD43351DAA3C4100991F7D /* AnimatedAnnotation.m in Sources */,
 				B6078BA21DA9DFE30057C965 /* OverlayViewController.swift in Sources */,
@@ -2430,7 +2448,9 @@
 				B6078DF71DB758880057C965 /* CloudLocalSearchViewController.swift in Sources */,
 				19DD43461DAB6D9900991F7D /* CustomAnnotationViewController.swift in Sources */,
 				B6078BA51DA9DFE30057C965 /* LocationViewController.swift in Sources */,
+				6A6C04D41F1DAE0D00F0CB67 /* ScreenshotDetailViewController.m in Sources */,
 				B6078B9E1DA9DFE30057C965 /* ShowMapViewController.swift in Sources */,
+				6A6C04CF1F1DADE300F0CB67 /* LineDashPolyline.m in Sources */,
 				B6078B9D1DA9DFE30057C965 /* LockedAnnotationViewController.swift in Sources */,
 				B6078BEB1DAB34F20057C965 /* CoordinateSystemConvertViewController.swift in Sources */,
 				B6078BE01DAA58000057C965 /* ALView+PureLayout.m in Sources */,
@@ -2441,6 +2461,7 @@
 				B6078B9C1DA9DFE30057C965 /* AnnotationViewController.swift in Sources */,
 				B6078BEF1DAB68270057C965 /* TouchPOIViewController.swift in Sources */,
 				B6078BFB1DAB938E0057C965 /* MapEventCallbackViewController.swift in Sources */,
+				6A6C04CB1F1DADBE00F0CB67 /* MAWeatherForecastView.m in Sources */,
 				B68694301E52BB6600441DF1 /* GroundOverlayViewController.swift in Sources */,
 				B6FD94EC1D9BC52800E7A2DA /* ViewController2.swift in Sources */,
 				B6078C0F1DACBB330057C965 /* GeocodeViewController.swift in Sources */,
@@ -2450,6 +2471,7 @@
 				B6078C0D1DACBA4A0057C965 /* NaviShareViewController.swift in Sources */,
 				B6078BA11DA9DFE30057C965 /* CorrectTraceViewController.swift in Sources */,
 				B6FD94E71D9BC52800E7A2DA /* AppDelegate.swift in Sources */,
+				6A6C04D21F1DADEA00F0CB67 /* MANaviRoute.m in Sources */,
 				B6078BA91DAA15410057C965 /* StereoOverlayViewController.swift in Sources */,
 				B6078BC31DAA279D0057C965 /* CustomOverlayViewController.swift in Sources */,
 			);
@@ -2597,6 +2619,7 @@
 				GCC_PREFIX_HEADER = MAMapKit_3D_Demo/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/MAMapKit_3D_Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.MAMapKit-3D-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "8014ae4e-33b6-4937-87e3-3725a2aad4f7";
@@ -2618,6 +2641,7 @@
 				GCC_PREFIX_HEADER = MAMapKit_3D_Demo/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/MAMapKit_3D_Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.MAMapKit-3D-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "37bcbefd-c99d-44d5-a048-5ff502582130";
@@ -2637,6 +2661,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/MAMapKit-3D-Demo-swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.MAMapKit-3D-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "8014ae4e-33b6-4937-87e3-3725a2aad4f7";
@@ -2661,6 +2686,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/MAMapKit-3D-Demo-swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.MAMapKit-3D-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "a892512d-fe94-4702-b716-0b66880b936d";

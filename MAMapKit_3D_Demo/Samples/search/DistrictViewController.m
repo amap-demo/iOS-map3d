@@ -9,7 +9,7 @@
 #import "DistrictViewController.h"
 #import "CommonUtility.h"
 
-#define kDefaultDistrictName        @"北京市市辖区" //市辖区
+#define kDefaultDistrictName        @"北京城区"
 
 @interface DistrictViewController ()<MAMapViewDelegate, AMapSearchDelegate, UISearchBarDelegate>
 
